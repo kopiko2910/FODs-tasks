@@ -1,0 +1,7 @@
+name,id,course,level,section
+shrawan,542,ai,3,I
+aman,4556,ai,3,I
+SAFAL,1245,hm,4,h
+roeisha,5621,ai,5,I
+rusali,4788,hm,3,f
+roshani,4584,computing,5,g

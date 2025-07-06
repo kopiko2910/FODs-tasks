@@ -1,0 +1,16 @@
+[
+    {
+        "book_isbn": "4593",
+        "user_id": "aalu",
+        "type": "issue",
+        "date": "2025-07-06 12:57:11",
+        "due_date": "2025-07-20 12:57:11"
+    },
+    {
+        "book_isbn": "4593",
+        "user_id": "aalu",
+        "type": "return",
+        "date": "2025-07-06 12:57:38",
+        "due_date": null
+    }
+]

@@ -1,0 +1,5 @@
+Gender,Age,Height,Weight,BMI,Risk
+Male,23,175,70,22.857142857142858,Lower risk
+Female,25,165,55,20.202020202020204,Lower risk
+Male,30,180,80,24.691358024691358,Lower risk
+Female,21,160,50,19.531249999999996,Lower risk
