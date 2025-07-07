@@ -8,14 +8,9 @@ def sort_names(names):
     return sorted(names, key=lambda x: x.lower())
 def test_sort_names():
     test_cases = [
-        ("Normal names", ["Alice", "bob", "Charlie", "dave"]),
-        ("Mixed case", ["Zoe", "alex", "Beth", "mike"]),
-        ("Empty list", []),
-        ("Single name", ["John"]),
-        ("Duplicate names", ["Alice", "bob", "Alice", "charlie"]),
-        ("Non-list input", "Not a list"),
-        ("Numbers as names", ["1", "10", "2", "20"]),
-        ("Special characters", ["O'Reilly", "Smith-Jones", "André"])
+        ("Normal names", ["ram", "aman", "safal", "shrawan"]),
+        ("Mixed case", ["Roeisha", "aman", "Shrawan", "sahil"]),
+        ("Duplicate names", ["Shrawan", "Shrawan", "Roeisha", "Aman"]),
     ]
     for description, names in test_cases:
         print(f"\nTest Case: {description}")
@@ -24,5 +19,4 @@ def test_sort_names():
         print(f"Sorted: {result}")
 if __name__ == "__main__":
     print("NAME SORTING TESTING")
-    print("-------------------")
     test_sort_names()

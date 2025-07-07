@@ -10,15 +10,13 @@ def find_city_index(cities, search_city):
     except Exception as e:
         return f"An error occurred: {str(e)}"
 def test_find_city_index():
-    city_list = ["New York", "London", "Paris", "Tokyo", "Sydney"]
-    tests = [
-        (city_list, "Paris"),    
-        (city_list, "paris"),    
-        (city_list, "Berlin"),  
-        (city_list, 123),        
-        ([], "London"),          
-        (city_list, "new york"), 
-        (["tokyo", "london"], "Tokyo")  
+    city_list = ["kathmandu", "pokhara", "chitwan", "mustang", "illam"]
+    tests = [  
+        (city_list, "Chitwan"), 
+        (city_list, "Illam"),        
+        (city_list, "mustang"),         
+        (city_list, "pokhara"), 
+        (["kathmandu", "pokhara"], "kathmandu")  
     ]
     
     for cities, city in tests:

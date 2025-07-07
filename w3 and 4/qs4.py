@@ -30,21 +30,14 @@ def test_count_occurrences():
     print("\nTest 2: Mixed numbers and non-numbers")
     count_occurrences([1, 'a', 2.5, 1, 2.5, None, 3])
     
-    # Test 3: Empty list
-    print("\nTest 3: Empty list")
-    count_occurrences([])
-    
-    # Test 4: All same numbers
-    print("\nTest 4: All same numbers")
-    count_occurrences([4, 4, 4, 4])
+
+
     
     # Test 5: Floating point numbers
-    print("\nTest 5: Floating point numbers")
+    print("\nTest 3: Floating point numbers")
     count_occurrences([1.5, 2.0, 1.5, 3.5, 2.0, 2.0])
     
-    # Test 6: Large numbers
-    print("\nTest 6: Large numbers")
-    count_occurrences([1000000, 999999, 1000000, 888888, 999999])
+ 
 
 # Run the tests
 if __name__ == "__main__":

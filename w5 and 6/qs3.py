@@ -55,7 +55,7 @@ def perform_calculations():
             history.append(result)
             
          
-            with open("calculations_history.txt", "a") as file:
+            with open("cal.txt", "a") as file:
                 file.write(f"\n\nTimestamp: {timestamp}\n")
                 file.write(f"Numbers: {numbers}\n")
                 file.write(f"Addition: {addition}\n")
@@ -70,7 +70,7 @@ def perform_calculations():
            
             print("\nCalculation History:")
             try:
-                with open("calculations_history.txt", "r") as file:
+                with open("cal.txt", "r") as file:
                     print(file.read())
             except FileNotFoundError:
                 print("No history found.")

@@ -20,7 +20,6 @@ def input_matrix(name):
 
 def main():
     print("Matrix Operations Program")
-    print("------------------------")
     
    
     A = input_matrix("A")

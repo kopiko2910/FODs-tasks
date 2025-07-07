@@ -13,7 +13,7 @@ else:
     try:
         with open(file_path, mode="r", newline="") as file:
             reader = csv.DictReader(file)
-            print("\n--- Student Records ---")
+            print("\nStudent Records")
             for row in reader:
                 try:
                     print(f"Name: {row['name']}, ID: {row['id']}, Course: {row['course']}, Level: {row['level']}, Section: {row['section']}")

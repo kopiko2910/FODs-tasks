@@ -55,3 +55,27 @@ Subtraction: 4.0
 Multiplication: 4.0
 Division: 4.0
 ----------------------------------------
+
+Timestamp: 2025-07-07 13:45:27
+Numbers: [1.0, 2.0, 4.0]
+Addition: 7.0
+Subtraction: -5.0
+Multiplication: 8.0
+Division: 0.125
+----------------------------------------
+
+Timestamp: 2025-07-07 13:49:51
+Numbers: [1.0, 2.0]
+Addition: 3.0
+Subtraction: -1.0
+Multiplication: 2.0
+Division: 0.5
+----------------------------------------
+
+Timestamp: 2025-07-07 13:51:42
+Numbers: [2.0, 3.0]
+Addition: 5.0
+Subtraction: -1.0
+Multiplication: 6.0
+Division: 0.6666666666666666
+----------------------------------------

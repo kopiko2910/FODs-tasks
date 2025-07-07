@@ -12,7 +12,6 @@ def card_guessing_game():
     
     print("Welcome to the Card Guessing Game!")
     print("Try to guess the hidden playing card!")
-    print("-----------------------------------")
   
     print("\nCard Values:", ', '.join(card_values))
     print("Card Suits:", ', '.join(card_suits))
@@ -22,23 +21,22 @@ def card_guessing_game():
         guess_suit = input("Guess the card suit: ").capitalize()
         
         print("\nResults:")
-        print("--------")
         
         value_match = guess_value == answer_value
         suit_match = guess_suit == answer_suit
         
         if value_match and suit_match:
-            print("❤️ 😊 Congratulations! You guessed it right!")
+            print("Congratulations! You guessed it right!")
             print(f"The card was the {answer_value} of {answer_suit}s")
         elif value_match or suit_match:
-            print("😊 Close! You got one part right!")
+            print("Close! You got one part right!")
             print(f"The card was the {answer_value} of {answer_suit}s")
             if value_match:
                 print("You guessed the value correctly!")
             else:
                 print("You guessed the suit correctly!")
         else:
-            print("💔 Game Over! Your guess was wrong.")
+            print("Game Over! Your guess was wrong.")
             print(f"The card was the {answer_value} of {answer_suit}s")
     
     except:

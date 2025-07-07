@@ -13,7 +13,6 @@ def calculate_factorial(n):
 
 def main():
     print("FACTORIAL CALCULATOR")
-    print("-------------------")
     
     try:
         num = int(input("Enter a non-negative integer: "))
